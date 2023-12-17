@@ -33,7 +33,7 @@ public class TestingDemo {
 		Thread.sleep(1000);
 		driver.findElement(By.name("mobile")).sendKeys("9604024184");
 		
-		/*Thread.sleep(1000);
+		Thread.sleep(1000);
 		driver.findElement(By.className("a-ayg")).click();
 		
 		Thread.sleep(1000);
@@ -53,9 +53,9 @@ public class TestingDemo {
 		driver.findElement(By.name("otp")).sendKeys(otp);
 		
 		Thread.sleep(3000);
-		driver.findElement(By.className("a-ayg")).click();*/
+		driver.findElement(By.className("a-ayg")).click();
 		
-		Thread.sleep(1000);
+		/*Thread.sleep(1000);
 		driver.findElement(By.className("a-ayg")).click();
 		
 		Thread.sleep(1000);
@@ -63,7 +63,7 @@ public class TestingDemo {
 		
 		
 		Thread.sleep(1000);
-		driver.findElement(By.name("otp")).sendKeys(otp);
+		driver.findElement(By.name("otp")).sendKeys(otp);*/
 		
 	}
 }
